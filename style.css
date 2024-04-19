@@ -65,3 +65,19 @@ body {
 .left-section .sidebar .sign-out i {
   font-size: 22px;
 }
+
+.main {
+  flex: 6;
+  padding: 25px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-picture {
+  height: 50px;
+}
