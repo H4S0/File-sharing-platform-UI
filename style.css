@@ -58,7 +58,7 @@ body {
 .left-section .sidebar .item h3,
 .left-section .sign-out h3 {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .left-section .sidebar .item i,
@@ -68,7 +68,7 @@ body {
 
 .main {
   flex: 6;
-  padding: 25px;
+  padding: 10px;
 }
 
 .header {
@@ -78,6 +78,83 @@ body {
   align-items: center;
 }
 
+
+
+.profile-card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .profile-picture {
-  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.profile-card-right-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+
+.ri-notification-line,
+.ri-chat-1-line {
+  background-color: #1976d2;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 25px;
+  transition: all 0.1s ease-in;
+}
+
+.ri-equalizer-line {
+  font-size: 25px;
+  transition: all 0.1s ease-in;
+}
+
+.ri-equalizer-line:hover {
+  color: #1976d2;
+}
+
+.ri-notification-line:hover,
+.ri-chat-1-line:hover {
+  background-color: #115aa3;
+}
+
+.main .header .search {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  padding: 8px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  transition: all 0.1s;
+}
+
+.search-button:hover {
+  color: #1976d2;
+}
+
+.main .header .search .left1 input {
+  outline: none;
+  border: none;
+  margin-left: 10px;
+}
+
+.right-section {
+  flex: 2;
 }
