@@ -175,10 +175,78 @@ body {
   text-align: center;
   justify-content: center;
   border-radius: 20px;
+  transition: all 0.2s ease-in;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in;
+}
+
+.main .quick-access .item:hover {
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main .quick-access .item i{
+  font-size: 46px;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.main .quick-access .item:nth-child(1) i {
+  background-color: #1976d242;
+  color: #1976d2;
+}
+
+.main .quick-access .item:nth-child(2) i {
+  background-color: rgba(255, 0, 0, 0.253);
+  color: red;
+}
+
+.main .quick-access .item:nth-child(3) i {
+  background-color: rgba(255, 255, 0, 0.267);
+  color: rgb(192, 119, 9);
+}
+
+.main .quick-access .item:nth-child(4) i {
+  background-color: rgba(0, 128, 0, 0.281);
+  color: green;
+}
+
+.main .quick-access .item h5 {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.main .quick-access .item p {
+  color: grey;
+  font-size: 15px;
+}
+
+.main .recent-naslov {
+  margin: 20px;
+  color: #115aa3;
+}
+
+.main .recent-box {
+  background: #fff;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.main .recent-box-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 10px;
 }
 
 
+
+.main .recent-box-row:hover{
+  background-color: #115aa360;
+}
 
 
 
