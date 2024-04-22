@@ -240,6 +240,14 @@ body {
   margin: 15px;
   padding: 25px;
   border-radius: 10px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.main .recent-box .recent-box-row .active-icon:nth-child(1) i {
+  background-color: #115aa34d;
+  color: #1976d2;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 
