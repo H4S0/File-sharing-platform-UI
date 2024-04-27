@@ -366,3 +366,13 @@ body {
 .right-section .bottom .premium p {
   color: #999;
 }
+
+.right-section .bottom .premium .discount {
+  background-color: #1976d2;
+  color: #fff;
+  padding: 5px;
+  border-radius: 7px;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
