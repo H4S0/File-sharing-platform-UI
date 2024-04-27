@@ -305,3 +305,64 @@ body {
   font-size: 13px;
   color: #999;
 }
+
+.right-section .widgets .disk .info h5 span {
+  color: #115aa3;
+  font-weight: bold;
+}
+
+.right-section .widgets .disk .info {
+  color: #999;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.right-section .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.right-section .bottom button {
+  background-color: #1976d2;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 100px 10px 100px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.right-section .bottom .premium {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 25px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.right-section .bottom .premium .title{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.right-section .bottom .premium .title i {
+  color: #fff;
+  background-color: #1976d2;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.right-section .bottom .premium .title h5 {
+  font-size: 18px;
+}
+
+.right-section .bottom .premium p {
+  color: #999;
+}
